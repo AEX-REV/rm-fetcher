@@ -1,0 +1,14 @@
+{
+  "name": "rm-fetcher",
+  "version": "1.0.0",
+  "description": "Fetcher der genererer CSV fra MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node fetch-latest-data.js && node server.js",
+    "fetch": "node fetch-latest-data.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.2"
+  }
+}
